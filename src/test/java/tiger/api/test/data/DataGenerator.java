@@ -9,7 +9,7 @@ import com.github.javafaker.Faker;
 
 public class DataGenerator {
 	
-
+// this is a fake data 
 	public static String getEmail(){
 		Faker faker = new Faker ();
 		return faker.name().firstName()+ faker.name().lastName()+"@gmail.com";
